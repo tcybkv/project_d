@@ -1,0 +1,344 @@
+.header {
+    background-color: #171719;
+}
+
+/* TAB SLIDER */
+
+.tab_slider {
+    background: black;
+    padding: 100px 0;
+}
+
+.tab_content_block {
+    width: 1000px;
+    box-shadow: 0 0 50px rgba(255, 0, 0, 0.8);
+    padding: 280px 0 0 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    height: 415px;
+}
+
+.tab_content_block p {
+    color: white;
+    padding-top: 10px;
+    width: 500px;
+}
+
+.tab_content_items {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.tab_content_item {
+    padding: 10px;
+    width: 250px;
+    height: 30px;
+    background: linear-gradient(90deg, rgb(238, 69, 69) 0%, rgb(210, 25, 25) 100%);
+    color: black;
+    font-weight: 600;
+    border: 1px solid var(--red);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+.tab_content_item_active {
+    background: black;
+    color: red;
+    font-weight: 600;
+    border: 2px solid var(--red);
+    border-radius: 10px;
+}
+
+.tab_contents_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#akina_speed_stars {
+    background-image: url("../images/image_akina_speed_stars.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+}
+
+#red_suns {
+    background-image: url("../images/image_red_suns.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+}
+
+#night_kids {
+    background-image: url("../images/image_night_kids.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+}
+
+#impact_blue {
+    background-image: url("../images/image_impact_blue.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+}
+
+#emperor {
+    background-image: url("../images/image_emperor.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#project_d {
+    background-image: url("../images/image_project_d.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+}
+
+#purple_shadow {
+    background-image: url("../images/image_purple_shadow.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#seven_star_leaf {
+    background-image: url("../images/image_seven_star_leaf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#spiral {
+    background-image: url("../images/image_spiral.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#sidewinder {
+    background-image: url("../images/image_sidewinder.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#thunder_fire {
+    background-image: url("../images/image_thunder_fire.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+}
+
+
+#todo_school {
+    background-image: url("../images/image_todo_school.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+}
+
+/* MOVE BLOCK */
+
+.move_block {
+    position: relative;
+    background: black;
+    padding: 100px 0;
+}
+
+.parent_block {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.move_child_block {
+    position: absolute;
+}
+
+.move_child_block img {
+    width: 80px;
+}
+
+/*-------TIMER------ */
+
+.timer_block {
+    padding: 100px 0;
+    background-color: black;
+}
+.timer_block h3 {
+    padding-bottom: 30px;
+}
+
+.timer_container{
+    background: linear-gradient(90deg, rgb(225, 55, 55) 0%, rgb(224, 0, 0) 100%);
+}
+
+.timer_display{
+    width: 100%;
+    background: #2a2a2a;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.laps{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.buttons button{
+    width: 200px;
+    height: 50px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color:#141313 ;
+    color: #ffffff;
+}
+
+/*------CARD SWITCHER------*/
+
+.card_switcher {
+    background-image: url("../images/image_switcher.jpg");
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.card {
+    background-color: black;
+    width: 500px;
+    height: 150px;
+    box-shadow: 0 0 50px red;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.card p {
+    color: var(--red);
+    font-size: 20px;
+}
+
+.card span {
+    color: white;
+    font-size: 30px;
+}
+
+.inner_card_switcher {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#btn-prev {
+    width: 60px;
+    height: 60px;
+}
+
+#btn-next {
+    width: 60px;
+    height: 60px;
+}
+
+
+/*-------CONVERTER--------*/
+
+
+.converter {
+    padding: 200px 0;
+    background-color: black;
+}
+
+.inner_converter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.inner_converter > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.som, .usd, .eur {
+    text-align: center;
+}
+
+/*------WEATHER------*/
+
+.weather {
+    padding: 270px 0;
+    background: url("../images/image_weather.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner_weather {
+    display: flex;
+    align-items: end;
+}
+
+.inner_weather > div {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    color: #d31515;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.inner_weather {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

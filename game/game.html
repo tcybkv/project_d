@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/game.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+</head>
+
+<body>
+<div class="header">
+    <div class="container">
+        <div class="inner_header">
+            <a href="../index.html">
+                <img src="../images/icon_initial-d.png" alt="Initial D" class="logotype">
+            </a>
+            <ul class="menu">
+                <li class="menu_link">
+                    <a href="../pages/home_works.html">About</a>
+                </li>
+                <li class="menu_link">
+                    <a href="../game/game.html">Game</a>
+                </li>
+                <li class="menu_link">
+                    <a href="../pages/characters.html">Characters</a>
+                </li>
+                <li class="menu_link">
+                    <a href = ../pages/cards.html>Cards</a>
+                </li>
+            </ul>
+            <button class="btn" id="btn-get">Contact</button>
+        </div>
+    </div>
+    </div>
+    <div class="container mb-4 mt-4">
+        <div class="card shadow-sm mx-auto mb-3">
+            <div class="card-body row pb-1 pt-1">
+                <div class="col-md-4 text-center">
+                    <h3 id="score_ID" class="text-primary mb-0">0</h3>
+                    <h3>Score</h3>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3 id="maxScore_ID" class="text-primary mb-0">0</h3>
+                    <h3>Best Score</h3>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3 id="speed_ID" class="text-primary mb-0">0 m/s</h3>
+                    <h3>Speed</h3>
+                </div>
+            </div>
+        </div>
+        <center>
+            <h4 class="text-muted">Use arrows to control: ←↑↓→</h4>
+            <canvas class="shadow mt-3 mb-0" height="600" width="900" id="myCanvas" style="background: url('assets/images/back.png'); border-radius: 10px;"></canvas>
+        </center>
+    </div>
+
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div class="modal_close">&times;</div>
+                    <div class="modal_title">Contact us!</div>
+                    <input type="text" placeholder="Your name">
+                    <input type="text" id="phone_input" placeholder="+996 XXX XX-XX-XX">
+                    <input type="text" id="gmail_input" placeholder="Your gmail" >
+                    <button class="btn" id="modal_button">Check</button>
+                    <span class="checker" id="modal_result"></span>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<audio src="../musics/deja_vu.mp3" autoplay loop></audio>
+</body>
+<script src="assets/js/gameModal.js"></script>
+<script type="text/javascript" src="assets/js/game.js"></script>
+</html>
